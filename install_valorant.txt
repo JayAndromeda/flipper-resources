@@ -1,0 +1,13 @@
+REM This is BadUSB demo script for windows
+
+REM Open windows notepad
+DELAY 1000
+GUI r
+DELAY 500
+STRING command prompt
+DELAY 500
+ENTER
+DELAY 750
+
+STRING winget install -e --id RiotGames.Valorant.NA
+ENTER
